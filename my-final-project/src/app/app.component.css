@@ -85,3 +85,17 @@ img {
   color: #555;
 }
 
+
+.slick-slide {
+  outline: none;
+}
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
