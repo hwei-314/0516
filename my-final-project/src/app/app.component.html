@@ -21,13 +21,13 @@
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">關於我們</a>
+                <a class="nav-link" routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">關於我們</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">最新公告</a>
+                <a class="nav-link" routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">最新公告</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">聯絡我們</a>
+                <a class="nav-link" routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">聯絡我們</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#">登入</a>
@@ -157,3 +157,4 @@ $(document).ready(function(){
     });
 });
 </script>
+<router-outlet></router-outlet>
