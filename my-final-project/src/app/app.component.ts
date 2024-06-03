@@ -7,12 +7,13 @@ import { RouterLinkActive } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { PostComponent } from './blog/post/post.component';
 import { CommonModule } from '@angular/common';
+import { InfoComponent } from './info/info.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, AboutComponent, BlogComponent, ContactComponent, PostComponent, CommonModule],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, AboutComponent, BlogComponent, ContactComponent, PostComponent, InfoComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
